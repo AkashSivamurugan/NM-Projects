@@ -1,0 +1,12 @@
+python -m venv venv
+venv\Scripts\activate  # Windows
+# OR
+source venv/bin/activate  # Mac/Linux
+
+
+
+pip install -r requirements.txt
+pip install wheel
+pip install sounddevice numpy matplotlib torch openai-whisper
+pip install pipwin
+pipwin install pyaudio
