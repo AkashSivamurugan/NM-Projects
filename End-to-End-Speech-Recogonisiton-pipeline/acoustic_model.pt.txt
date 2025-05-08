@@ -1,0 +1,9 @@
+OrderedDict([
+    ('lstm.weight_ih_l0', tensor([...]))  # LSTM input weights
+    ('lstm.weight_hh_l0', tensor([...]))  # LSTM hidden-to-hidden weights
+    ('lstm.bias_ih_l0', tensor([...]))    # LSTM input bias
+    ('lstm.bias_hh_l0', tensor([...]))    # LSTM hidden bias
+    ('fc.weight', tensor([...]))           # Fully connected layer weights
+    ('fc.bias', tensor([...]))             # Fully connected layer bias
+    ...
+])
