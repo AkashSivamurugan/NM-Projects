@@ -1,0 +1,11 @@
+The project requires the following Python libraries:
+
+streamlit - For building the interactive web interface.
+
+streamlit-webrtc - To handle live audio recording using WebRTC.
+
+torchaudio - For processing audio files and resampling them to 16kHz.
+
+transformers - To load and use the Wav2Vec2 model for speech recognition.
+
+soundfile - For reading and processing audio files.
